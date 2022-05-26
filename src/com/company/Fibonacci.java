@@ -9,7 +9,7 @@ public class Fibonacci {
     }
 
 
-    public void findValue(int twoPrior, int onePrior, int numOfTerms){
+    public void findValue(long twoPrior, long onePrior, int numOfTerms){
         if(numOfTerms == 1){
             System.out.println(twoPrior);
             return;
