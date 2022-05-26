@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Fibonacci findterm = new Fibonacci();
+
         System.out.println();
         System.out.println("**** Note: the 1st term is considered 0 and the 2nd term is considered 1 ****");
         System.out.print("Enter the n value: ");

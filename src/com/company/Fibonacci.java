@@ -19,7 +19,8 @@ public class Fibonacci {
         }
         n++;
         if(n == numOfTerms){
-            System.out.println((onePrior+twoPrior));
+            System.out.println();
+            System.out.println("The value is "+(onePrior+twoPrior));
             return;
         } else{
             findValue(onePrior,(onePrior+twoPrior), numOfTerms);
