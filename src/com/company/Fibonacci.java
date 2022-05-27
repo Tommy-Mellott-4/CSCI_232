@@ -21,6 +21,7 @@ public class Fibonacci {
         if(n == numOfTerms){
             System.out.println();
             System.out.println("The value is "+(onePrior+twoPrior));
+            n = 2;
             return;
         } else{
             findValue(onePrior,(onePrior+twoPrior), numOfTerms);
