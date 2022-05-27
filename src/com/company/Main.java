@@ -8,6 +8,13 @@ public class Main {
     public static void main(String[] args) {
         Fibonacci findterm = new Fibonacci();
         boolean cont = false;
+        System.out.println();
+        System.out.println("Fibonacci Sequence Calculator");
+        try {
+            Thread.sleep(500);
+        } catch(InterruptedException ie){
+            Thread.currentThread().interrupt();
+        }
         while(cont != true) {
             System.out.println();
             System.out.println("** Type 'exit' to end the program");
